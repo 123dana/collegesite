@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>python project</title>
+    <link rel="stylesheet" href="python.css">
+
+    <script src="https://kit.fontawesome.com/e4281faa61.js" crossorigin="anonymous"></script>
+    <style>
+   
+  *{
+  margin:0 ;
+  padding: 0;
+}
+.head{
+  background-color: rgba(18, 17, 17, 0.3);
+  
+
+}
+ .name{
+    background-color:darkblue;
+    color:white;
+    text-align:center;
+    
+    }
+    .logo{
+    padding:20px;
+    background-color:red;
+    
+    }
+.nav{
+  position: sticky;
+  
+  top: 0;
+
+}
+
+body {
+  
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+
+}
+ul {
+  list-style-type: none;
+  padding: 25px;
+  overflow: hidden;
+  background: rgba(61, 60, 60, 0.2);
+
+}
+
+li {
+  float: left;
+  font-size: 20px;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: rgb(228, 192, 13);
+  text-align: center;
+  padding: 15px 86px;
+
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: #393b3d;
+  min-width: 160px;
+
+}
+
+.dropdown-content a {
+  color: rgb(228, 192, 13);
+  padding: 15px 80px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: white;
+  margin: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.rightnav {
+  width: 30%;
+  text-align: right;
+  position: absolute;
+
+}
+
+
+.btn-sm {
+  padding: 10px 10px;
+  vertical-align: middle;
+  color: rgb(228, 192, 13);
+  background-color:rgba(61, 60, 60, 0.2);
+  font-size: 20px;
+}
+.btn-sm:hover {
+color: aliceblue;
+}
+.hed{
+  color: rgb(200, 203, 18);
+  font-size: 50px;
+  margin-top: 300px;
+  margin-left: 20px;
+
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="name">
+    <div class="logo">
+        <img src="D:\project ddu\images\logostdy.png" height="100px">
+    </div>
+<h1> Study World College of Engineering Coimbatore</h1>
+</div>
+   <div class="nav">
+    <ul>
+
+      <li><a href="home.html">HOME</a></li>
+      <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">STAFF</a>
+
+                  <div class="dropdown-content">
+                      <a href="stafreg.py">NEW</a>
+                      <a href="staffview.py">EXISTING</a>
+                  </div>
+      </li>
+      <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">STUDENT</a>
+
+                      <div class="dropdown-content">
+                          <a href="studreg.py">NEW</a>
+                          <a href="studview.py">EXISTING</a>
+                      </div>
+      </li>
+       <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">LEAVE</a>
+
+                      <div class="dropdown-content">
+                          <a href="viewadmin.py">NEW</a>
+                          <a href="#">EXISTING</a>
+                      </div>
+      </li>
+    </ul>
+  </div>
+  </body>
+    <h1 class="hed"><marquee behavior="alternate">WELCOME ADMIN......!<marquee></h1>
+</html>
+
